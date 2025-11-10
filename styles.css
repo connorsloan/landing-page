@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+header {
+    background-color: #1F2937;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+.top-content {
+    background-color: #1F2937;
+}
+
+.hero-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.top-content .text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.information .strong-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+}
+
+.testimonial .text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
