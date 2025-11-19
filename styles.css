@@ -1,11 +1,14 @@
 * {
     margin: 0;
-    padding: 0;
+    /* border: solid 1px black; */
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -15,30 +18,74 @@ a {
 
 header {
     background-color: #1F2937;
+    padding: 10px 200px 0;
+    flex-grow: 1;
+    display: flex;
+    align-items: end;
+    gap: 10px;
+}
+
+footer {
+    display: flex;
+    margin-top: auto;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    height: 30px;
+    border-radius: 5px;
+    max-width: 100px;
 }
 
 .logo {
     color: #F9FAF8;
     font-size: 24px;
-}
-
-button {
-    background-color: #3882F6;
+    margin-right: auto;
 }
 
 .top-content {
     background-color: #1F2937;
+    padding: 100px 200px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
 .hero-text {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    max-width: 400px;
 }
 
 .top-content .text {
     color: #E5E7EB;
     font-size: 18px;
+    max-width: 450px;
+}
+
+.top-content .img-placeholder {
+    color: white;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.top-content .right {
+    flex-grow: 1;
+}
+
+.top-content .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-content button {
+    border: none;
+    margin-top: 5px;
 }
 
 .information .strong-text {
@@ -56,4 +103,8 @@ button {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+}
+
+.ad {
+    background-color: #3882F6;
 }
