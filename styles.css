@@ -102,7 +102,8 @@ button {
 
 .info-row {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0 310px;
     gap: 50px;
 }
 
@@ -128,6 +129,7 @@ button {
 
 .testimonial {
     background-color: #E5E7EB;
+    padding: 100px 310px
 }
 
 .testimonial .text {
@@ -135,6 +137,12 @@ button {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+}
+
+.attribution {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
 }
 
 .ad {
