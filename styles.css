@@ -88,10 +88,42 @@ button {
     margin-top: 5px;
 }
 
+.information {
+    padding: 100px 0;
+}
+
 .information .strong-text {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    justify-self: center;
+    margin-bottom: 50px;
+}
+
+.info-row {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+
+.info-column div {
+    border: 3px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.info-column p {
+    max-width: 150px;
 }
 
 .testimonial {
